@@ -1,0 +1,24 @@
+
+.checknumberbox{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+
+    /*border: 1px solid black;*/
+    text-align: center;
+    margin: 20px;
+    box-shadow: 7px 7px 15px #636060;
+    padding: 10px;
+}
+
+.inputFiledNum{
+    display: flex;
+    flex-direction: row;
+     align-items: center;
+    margin: 5px;
+}
+
+#bjablaso_RTN{
+    width: 25%;
+    height: 1em;
+}
