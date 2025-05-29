@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JS3 Race1 Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>console.log('HEAD')</script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onloadstart="console.log('ONLOADSTART')" onload='console.log("ONLOAD")'>
+<div class="grid-layout">
+    <!-- Header -->
+    <div class="header-row">
+        <div id="header-formatter">
+            <div class="header-Image">
+                <img src="./images/asulogo.jpg" alt="ASU Logo">
+            </div>
+            <div class="header-letter">
+                <h2>Kevin A. Gary, Ph.D.</h2>
+            </div>
+
+            <!-- Optional Right Logo -->
+            <!-- <img src="./images/asulogo.jpg" alt="ASU Logo"> -->
+        </div>
+    </div>
+
+    <!-- Info Section -->
+    <div class="info-ibo">
+        <img src="./images/KevinAGarySmall.jpg" alt="Kevin A. Gary" style="float: left; margin-right: 1rem;">
+        <p>
+            Welcome to my homepage! I have been on the faculty at ASU since 2004, tenured in 2010.
+            I believe in creating challenging learning experiences for my students that prepares
+            them for industry, the profession, and life! I do this through hands-on, project-based
+            teaching in the <a href="https://softwareenterprise.asu.edu">Software Enterprise</a>,
+            use-inspired applied research (particularly in e-Learning and healthcare), and applying
+            industry best practices in the classroom. My primary area is "Software Engineering", but
+            my interests vary from enterprise computing to mHealth to agile and open source software engineering.
+        </p>
+    </div>
+
+    <script>console.log('Finished table 1')</script>
+
+    <!-- Main Section -->
+    <div class="main-area">
+<!--        <div >-->
+            <div class="container">
+                  <div class="row">
+                        <div class="col-4">
+                            <h3>Contact Info:</h3>
+                            <p>
+                                Associate Professor<br/>
+                                <a href="http://cidse.engineering.asu.edu">The School of Computing, Informatics, and Decision Systems Engineering</a><br/>
+                                <a href="http://engineering.asu.edu/">The Ira A. Fulton Schools of Engineering</a><br/>
+                                <a href="http://poly.asu.edu">Software Engineering Program Faculty, Polytechnic Campus</a><br/>
+                                7171 Sonoran Arroyo Mall<br/>
+                                Peralta 230C <br/>
+                                Mesa Arizona 85212<br/>
+                                Phone: <a href="tel:1-480-727-1373">(480)727-1373</a><br/>
+                                Email: <a href="mailto:kgary@asu.edu">kgary@asu.edu</a><br/>
+                                Web: <a href="http://www.public.asu.edu/~kgary">homepage</a>,
+                                <a href="http://drgarysblog.blogspot.com">blog</a><br/>
+                                Twitter: <a href="https://twitter.com/drkevingary" class="twitter-follow-button" data-show-count="false">Follow @drkevingary</a>
+                            </p>
+                        </div>
+
+    <!--                <div style="display: flex; gap: 2rem;">-->
+                        <div class="col-4">
+                            <h3>Blog Entries:</h3>
+                            <script language="JavaScript" src="http://www.feed2js.org//feed2js.php?src=http%3A%2F%2Fdrgarysblog.blogspot.com%2Ffeeds%2Fposts%2Fdefault&amp;chan=title&amp;num=3&amp;desc=150&amp;date=y&amp;targ=y&amp;pc=y&amp;html=p" type="text/javascript"></script>
+                            <noscript>
+                                <a href="http://www.feed2js.org//feed2js.php?src=http%3A%2F%2Fdrgarysblog.blogspot.com%2Ffeeds%2Fposts%2Fdefault&amp;chan=title&amp;num=3&amp;desc=200&amp;date=y&amp;targ=y&amp;pc=y&amp;html=y">View RSS feed</a>
+                            </noscript>
+                        </div>
+                        <div class="col-4">
+                            <h3>My Tweets:</h3>
+                            <a class="twitter-timeline" href="https://twitter.com/drkevingary" data-widget-id="390204299604541440">Tweets by @drkevingary</a>
+                            <script>
+                                !function(d,s,id){
+                                    var js,fjs=d.getElementsByTagName(s)[0],
+                                        p=/^http:/.test(d.location)?'http':'https';
+                                    if(!d.getElementById(id)){
+                                        js=d.createElement(s);
+                                        js.id=id;
+                                        js.src=p+"://platform.twitter.com/widgets.js";
+                                        fjs.parentNode.insertBefore(js,fjs);
+                                    }
+                                }(document,"script","twitter-wjs");
+                            </script>
+                        </div>
+
+                  </div>
+            </div>
+
+            <div class="item-2">
+
+                <div style="display: flex; flex-direction: column; gap: 2rem; margin-top: 2rem;">
+                    <div>
+                        <h3>Links:</h3>
+                        <ul>
+                            <li><a href="./docs/CVfull.pdf">Current Vitae (including pubs)</a></li>
+                            <li><a href="./docs/ASUGradResearch100212.pdf">Graduate seminar presentation of research projects (2012)</a></li>
+                            <li><a href="http://www.igstk.org">IGSTK</a></li>
+                            <li><a href="http://softwareenterprise.asu.edu">The Software Enterprise</a></li>
+                            <li><a href="http://atic.asu.edu">The Advanced Technology Innovation Center (ATIC)</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="http://www.nerdtests.com/ft_nq.php">
+                            <img src="http://www.nerdtests.com/images/ft/nq/21991e3bef.gif" alt="Nerd Test Badge">
+                        </a>
+                    </div>
+                </div>
+                <script>console.log('Middle table 2')</script>
+
+                <div class="right">
+                    <div style="display: flex; gap: 2rem; margin-top: 2rem;">
+                        <div>
+                            <h3>Selected Publications</h3>
+                            <p>(See <a href="./docs/CVfull.pdf">CV</a> for full list)</p>
+                            <ol>
+                                <li>Gary, K., Kojcev, R., and Cleary, K. “A Systems Integration Architecture for NOTE Surgery” (SEA 2012).</li>
+                                <li>Gary, K., Kocjev, R., and Cleary, K. “Evolving Maturity of Software Systems Supporting Surgery” (SoSMD 2011).</li>
+                                <li>Gary, K. et al. “Agile Methods for Safety-Critical Open Source Software” (Software: Practice and Experience, 2011).</li>
+                                <li>Gary, K. “Practicing Best Practices in Software Engineering Education” (IJEE, 2008).</li>
+                                <li>Gary, K. “Preparing Industry-ready Software Engineers” (Idea Group Publishing, 2008).</li>
+                                <li>Gary, K. and Koehnemann, H. “Component-based Deployment for Web Applications” (2008).</li>
+                                <li>Gary, K. et al. “IGSTK: An Open Source Software Platform for Image-Guided Surgery” (IEEE Computer, 2006).</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<!--        </div>-->
+
+
+    </div>
+
+    <script>console.log('Finished table 2')</script>
+
+    <hr style="width: 100%; height: 2px;" />
+
+    <!-- Footer -->
+    <div class="grid-footer">
+        <div id="fomatter">
+            <img src="./images/asulogo.jpg" alt="ASU Logo">
+            <p style="margin: 0 auto;">&copy; 2013 Kevin A. Gary</p>
+            <img src="./images/asulogo.jpg" alt="ASU Logo">
+        </div>
+    </div>
+</div>
+<script>console.log('Finished table 3')</script>
+</body>
+</html>
