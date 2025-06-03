@@ -100,63 +100,27 @@
 				   required>
 			</p>
 
-            <!---
-          Activity 1 8 of the 22
-          -->
 
+            <!--
+            Activity Two :
+
+            -->
             <div class="checknumberbox">
-             <h3>  Activity 1 A </h3>
-            <!-- 1. Color Picker -->
-            <p>
-                <label for="ColorChooser">Choose a color:</label>
-                <input type="color" name="ColorChooser" id="ColorChooser">
-            </p>
-
-            <!-- 2. Datetime-local Picker -->
-            <p>
-                <label for="DateTimeLocal">Pick a Date and Time:</label>
-                <input type="datetime-local" name="DateTimeLocal" id="DateTimeLocal">
-            </p>
-
-            <!-- 3. Month Picker -->
-            <p>
-                <label for="MonthPicker">Pick a Month:</label>
-                <input type="month" name="MonthPicker" id="MonthPicker">
-            </p>
-
-            <!-- 4. Range Input (between 5 and 25) -->
-            <p>
-                <label for="RangeVal">Select a value (5-25):</label>
-                <input type="range" name="RangeVal" id="RangeVal" min="5" max="25" value="15">
-            </p>
-
-            <!-- 5. Radio Buttons (grouped) -->
-            <p>
-                <label>Choose an option:</label><br>
-                <input type="radio" name="option" id="option1" min="5" max="25" value="12">
-                <label for="option1">Option 1</label><br>
-
-            </p>
-
-            <!-- 6. Time Picker -->
-            <p>
-                <label for="TimeInput">Choose a Time:</label>
-                <input type="time" name="TimeInput" id="TimeInput">
-            </p>
-
-            <!-- 7. Week Picker -->
-            <p>
-                <label for="WeekTag">Pick a Week:</label>
-                <input type="week" name="WeekTag" id="WeekTag">
-            </p>
-
-            <!-- 8. Custom Button -->
-            <p>
-                <label for="CustomBtn">Custom Button:</label>
-                <input type="button" id="CustomBtn" value="Click Me!" onclick="alert('Custom Button Clicked!')">
-            </p>
+                <h3>Check Validation number (Activity 2)</h3>
+                <div  class="inputFiledNum" >
+                <label for="bjablaso_RTN">Routing Number:</label>
+                <input
+                        id="bjablaso_RTN"
+                        name="bjablaso_RTN"
+                        type="text"
+                        pattern="^\d{9} \d{12} \d{4}$"
+                        title="Format: 9-digit routing number, space, 12-digit account number, space,
+                        4-digit check number (e.g. 123456789 000123456789 0123)"
+                        style="width: 400px"
+                        required
+                >
+                </div>
             </div>
-
 
 
 

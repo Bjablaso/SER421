@@ -5,18 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca9a7fd1-ac32-4ced-9f1d-71f0f1a7abe6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Caculator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rwdcss/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1Activity1B.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1Activity2.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1Activity4A.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module1Activity4B.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rwdcss/Module1Activity3BTemp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rwdcss/style1.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Activity2.md" beforeDir="false" afterPath="$PROJECT_DIR$/Module1Activity2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML5_InputForms.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1Activity1A.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rwdcss/rwdcss.html" beforeDir="false" afterPath="$PROJECT_DIR$/rwdcss/Module1Activity3ATemp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Caculator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module1Activity1A.html" beforeDir="false" afterPath="$PROJECT_DIR$/Module1Activity1A.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rwdcss/Module1Activity3ATemp.html" beforeDir="false" afterPath="$PROJECT_DIR$/rwdcss/Module1Activity3ATemp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rwdcss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/rwdcss/style2.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -33,9 +44,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Node.js.Caculator.js.executor": "Run",
+    "Node.js.Module1Activity4B.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Activity3",
-    "last_opened_file_path": "/Users/cedrakejablasone/Desktop/SER 421/SER421_All_Project/SER421_Lab1/rwdcss",
+    "git-widget-placeholder": "Activity4",
+    "last_opened_file_path": "/Users/cedrakejablasone/Desktop/SER 421/SER421_All_Project/SER421_Lab1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -46,6 +58,10 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/rwdcss" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/rwdcss" />
     </key>
   </component>
@@ -71,6 +87,10 @@
       <workItem from="1748270160950" duration="2890000" />
       <workItem from="1748355593627" duration="2178000" />
       <workItem from="1748475050277" duration="5363000" />
+      <workItem from="1748486257454" duration="593000" />
+      <workItem from="1748546206277" duration="4969000" />
+      <workItem from="1748622615621" duration="482000" />
+      <workItem from="1748636698058" duration="1229000" />
     </task>
     <servers />
   </component>
